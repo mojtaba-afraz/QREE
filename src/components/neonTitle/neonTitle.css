@@ -1,0 +1,20 @@
+a {
+    text-align: center;
+    font-size: 7em;
+    line-height: 1;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+@keyframes neon {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #1976d2,
+        0 0 70px #1976d2, 0 0 80px #1976d2, 0 0 100px #00ffde, 0 0 150px #00ff15;
+    }
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff9900,
+        0 0 35px #ff9900, 0 0 40px #ff9900, 0 0 50px #ff9900, 0 0 75px #ff9900;
+    }
+}
